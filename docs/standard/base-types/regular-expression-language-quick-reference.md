@@ -100,7 +100,7 @@ ms.locfileid: "36948610"
 |`\z`|La coincidencia se debe producir al final de la cadena.|`-\d{3}\z`|"-333" en<br /><br /> "-901-333"|  
 |`\G`|La coincidencia se debe producir en el punto en el que finalizó la coincidencia anterior.|`\G\(\d\)`|"(1)", "(3)", "(5)" en "(1)(3)(5)[7](9\)"|  
 |`\b`|La coincidencia se debe producir en un límite entre un carácter `\w` (alfanumérico) y un carácter `\W` (no alfanumérico).|`\b\w+\s\w+\b`|"ellos ello", "ellos ellos" en "ellos ello ellos ellos"|  
-|`\B`|La coincidencia no se debe producir en un límite `\b` .|`\Bend\w*\b`|"fin", "final" en "finalizar finalista finalizador finalizó"|  
+|`\B`|La coincidencia no se debe producir en un límite `\b` .|`\Bfin\w*\b`|"fin", "finir", "finado" en "definir afinado refinado finalista"|  
   
  [Volver al principio](#top)  
   
